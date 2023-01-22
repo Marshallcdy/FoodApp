@@ -57,6 +57,31 @@ class MyHomepage extends StatelessWidget {
                         ),
                         textAlign: TextAlign.center,
                       ),
+                      const SizedBox(
+                        height: 5,
+                      ),
+                      Text(
+                        "All the best restaurants with their \n top menu waiting for you,they can't \n wait for your order! ",
+                        style: GoogleFonts.poppins(
+                          fontSize: 13,
+                          fontWeight: FontWeight.w400,
+                          color: Colors.white,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                      const SizedBox(
+                        height: 10,
+                      ),
+                      CircleAvatar(
+                        radius: 50,
+                        backgroundColor: Colors.white,
+                        child: IconButton(
+                            onPressed: () {},
+                            icon: const Icon(
+                              Icons.arrow_forward_outlined,
+                              color: Color(0xffFE8C00),
+                            )),
+                      ),
                     ],
                   ),
                 )),
